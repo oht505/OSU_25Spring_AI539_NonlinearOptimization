@@ -24,7 +24,7 @@ The assignments involve both theoretical analysis and simulation using MATLAB.
 - Analyzed topological properties of sets (open, closed, compact) and clarified concepts like interior, boundary, and closure.
 - Explored matrix norms and eigenvalue relationships, including how positive semidefiniteness affects constrained optimization problems.
 
-Main file: `HW1/AI539_Nonlinear_Optimization_HW1_Hyuntaek_Oh_250416_005937.pdf`  
+Main file: ![HW1/AI539_Nonlinear_Optimization_HW1_Hyuntaek_Oh_250416_005937.pdf]  
 
 ---
 
