@@ -58,7 +58,7 @@ The assignments involve both theoretical analysis and simulation using MATLAB.
 
 [view HW4 Report](./HW4/AI539_Nonlinear_Optimization_HW4_Hyuntaek_Oh.pdf) 
 
-<p float="left"> <img src="./function%20value.jpg" width="45%" alt="Function Value vs Iteration"> <img src="./grad_norm.jpg" width="45%" alt="Gradient Norm vs Iteration"> </p>
+<p float="left"> <img src="./function value.jpg" width="45%" alt="Function Value vs Iteration"> <img src="./grad_norm.jpg" width="45%" alt="Gradient Norm vs Iteration"> </p>
 
 ---
 
