@@ -45,6 +45,7 @@ The assignments involve both theoretical analysis and simulation using MATLAB.
 - Implemented MATLAB simulation showing exponential convergence behavior when minimizing a quadratic function with an appropriate step size
 
 [view HW3 Report](./HW3/AI539_Nonlinear_Optimization_HW3_Hyuntaek_Oh.pdf) 
+
 <img width="840" height="630" alt="error norm" src="https://github.com/user-attachments/assets/37c5b95d-87ff-419f-ad44-3d2ae07a1030" />
 
 ---
