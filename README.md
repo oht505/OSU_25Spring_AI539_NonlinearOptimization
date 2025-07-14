@@ -64,21 +64,73 @@ The assignments involve both theoretical analysis and simulation using MATLAB.
 
 ---
 
-## 🧠 What I Learned
+### HW5 – Comparing Line Search and Modified Newton's Method for Nonlinear Optimization
 
-- How to visualize and analyze nonlinear behavior beyond equations
-- The power of Lyapunov methods in verifying system stability
-- How real-world systems exhibit limit cycles and bifurcations
+- Implemented and compared Gradient Descent with Backtracking and Goldstein Line Search on a non-convex function, analyzing their convergence behaviors through norm and function value plots
+- Verified local optimality by checking gradient vanishing and positive definiteness of the Hessian, confirming strict local minima in both methods
+- Applied a Modified Newton’s Method with eigenvalue correction and Armijo-style backtracking to ensure global convergence, achieving rapid quadratic convergence in final iterations
+
+[view HW5 Report](./HW5/AI539_Nonlinear_Optimization_HW5_Hyuntaek_Oh.pdf) 
+
+![backtracking_grad_norms](https://github.com/user-attachments/assets/d6e28b1c-31e1-41a7-8fa3-ecdbb9b6be8c)
+
+![Goldstein_grad_norms](https://github.com/user-attachments/assets/87b4c2f6-a433-4554-a22e-bb171bf5c928)
+
+![Newton_bt_grad_norms](https://github.com/user-attachments/assets/595925e1-bc6f-4063-860f-0db8c171236b)
 
 ---
 
-## 🛠️ Tools Used
+### HW6 – Conjugate Gradient and PARTAN Methods for Large-Scale Quadratic Optimization
+
+- Derived and analyzed the convergence rate of the Conjugate Gradient Method, showing its exponential improvement over Gradient Descent using Chebyshev polynomial bounds
+- Implemented Gradient Descent with Backtracking Line Search and observed its performance on ill-conditioned problems depending on penalty parameter µ (slow convergence when µ = 1000)
+- Developed and tested the PARTAN algorithm, demonstrating significantly faster convergence and greater efficiency than standard Gradient Descent, especially under high-penalty conditions
+
+[view HW6 Report](./HW6/AI539_Nonlinear_Optimization_HW6_Hyuntaek_Oh.pdf) 
+
+![Q2_b_mu1_grad](https://github.com/user-attachments/assets/ff94dc51-19b7-4fc2-868b-8953889ff3da)
+
+![Q2_b_mu1000_grad](https://github.com/user-attachments/assets/ae77483d-7667-4997-8e33-578ce421393e)
+
+![Q2_c_mu1_grad](https://github.com/user-attachments/assets/3c4efa3a-4f0d-44f7-9d7e-82e580d3a702)
+
+![Q2_c_mu1000_grad](https://github.com/user-attachments/assets/c17c6007-5c36-4ac7-80da-96190ae60214)
+
+---
+
+### Midterm – Theoretical Foundations of Descent Algorithms
+
+- Proved that Gradient Descent with Armijo Backtracking satisfies the Global Convergence Theorem for continuously differentiable functions
+- Analyzed the Gauss-Southwell Coordinate Descent Algorithm, showing how greedy coordinate selection affects descent behavior and convergence
+- Applied convexity theory to prove that for a composite function f(x)=g(Ax+b), convexity of f is guaranteed when g is convex and A is linear
+
+![midterm_Q2_grad_norms](https://github.com/user-attachments/assets/94fef628-9db5-4eb1-8abd-c96f3185ebee)
+
+![midterm_Q3_gradient_norms](https://github.com/user-attachments/assets/048cbd40-e162-4e58-9770-399f38fcea47)
+
+---
+
+### Final – KKT conditions and Penalty Method
+
+- KKT Condition Verification:
+Proved and applied the Karush-Kuhn-Tucker (KKT) conditions using multiplier existence, constraint activity, and matrix-based formulation. Derived a closed-form solution for multipliers when the constraint Jacobian has full row rank
+
+- Penalty Method Implementation:
+Developed and implemented a penalty-based optimization algorithm using a quadratic penalty function to handle both equality and inequality constraints. Demonstrated convergence behavior through code and plots
+
+- Second-Order Optimality Check:
+Verified that the final solution satisfies both the second-order necessary and sufficient conditions by projecting the Lagrangian Hessian onto the tangent subspace at the active set
+
+<img width="840" height="630" alt="f_vals" src="https://github.com/user-attachments/assets/46b55bac-e7bc-40d9-877f-954c4f96e5ee" />
+
+<img width="840" height="630" alt="P_vals" src="https://github.com/user-attachments/assets/def8bd98-b765-483a-b50f-836f944b7ba9" />
+
+<img width="840" height="630" alt="penalty_term_vals" src="https://github.com/user-attachments/assets/2288ebf6-46ad-4e7a-ab9d-9343003f9245" />
+
+---
+
+## Tools Used
 
 - MATLAB (for simulations and plotting)
-- Symbolic Math Toolbox
-- Numerical ODE Solvers (`ode45`, `ode23`)
 
 ---
-
-## 📁 Folder Structure
-
