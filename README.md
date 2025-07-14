@@ -24,14 +24,15 @@ The assignments involve both theoretical analysis and simulation using MATLAB.
 - Analyzed topological properties of sets (open, closed, compact) and clarified concepts like interior, boundary, and closure.
 - Explored matrix norms and eigenvalue relationships, including how positive semidefiniteness affects constrained optimization problems.
 
-Main file: !["HW1/AI539_Nonlinear_Optimization_HW1_Hyuntaek_Oh_250416_005937.pdf"]  
+[HW1 Report](./HW1/AI539_Nonlinear_Optimization_HW1_Hyuntaek_Oh_250416_005937.pdf)  
 
 ---
 
 ### HW2 – Analytical Properties of Optimization Solutions
 
 - Reformulated and minimized quadratic loss functions in terms of polynomial approximation and orthogonality in function space.
-- Applied 
+- Applied first-order necessary conditions to analyze optimality under inequality constraints using directional derivatives.
+- Used gradient and Hessian analysis to prove local and global optimality of a multivariable quadratic function
 
 📄 Main file: `HW2/AI539_Nonlinear_Optimization_HW2_Hyuntaek_Oh.pdf`  
 📷 Sample Result:  
