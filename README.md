@@ -56,8 +56,9 @@ The assignments involve both theoretical analysis and simulation using MATLAB.
 - Demonstrated theoretical and numerical validation of closedness and continuity properties in limited-range line search mappings
 - Implemented Gradient Descent to solve a non-linear optimization problem and verified convergence through function value, gradient norm plots, and Hessian matrix analysis
 
-<p float="left"> ![function value](https://github.com/user-attachments/assets/a6e61546-74bd-478d-b3ba-7adf4a8b9ea4)
-![grad_norm](https://github.com/user-attachments/assets/41fdb18d-379d-4ebc-9cff-19f39aa7d4e9) </p>
+[view HW4 Report](./HW4/AI539_Nonlinear_Optimization_HW4_Hyuntaek_Oh.pdf) 
+
+<p float="left"> <img src="./function%20value.jpg" width="45%" alt="Function Value vs Iteration"> <img src="./grad_norm.jpg" width="45%" alt="Gradient Norm vs Iteration"> </p>
 
 ---
 
