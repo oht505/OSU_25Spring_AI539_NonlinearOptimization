@@ -1,0 +1,14 @@
+*.pdf
+*.zip
+figures/
+
+!Final/AI539_Nonlinear_Optimization_Final_Hyuntaek_Oh.pdf
+!HW1/AI539_Nonlinear_Optimization_HW1_Hyuntaek_Oh_250416_005937.pdf
+!HW2/AI539_Nonlinear_Optimization_HW2_Hyuntaek_Oh.pdf
+!HW3/AI539_Nonlinear_Optimization_HW3_Hyuntaek_Oh.pdf
+!HW4/AI539_Nonlinear_Optimization_HW4_Hyuntaek_Oh.pdf
+!HW5/AI539_Nonlinear_Optimization_HW5_Hyuntaek_Oh.pdf
+!HW6/AI539_Nonlinear_Optimization_HW6_Hyuntaek_Oh.pdf
+!HW6/Chebyshev Polynomial.pdf
+!midterm/AI539_Nonlinear_Optimization_Midterm_Hyuntaek_Oh.pdf
+
